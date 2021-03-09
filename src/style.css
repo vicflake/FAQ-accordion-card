@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: hsl(238, 29%, 16%);
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+div.container {
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -350px -170px;
+    background-color: #fff;
+    width: 560px;
+    border-radius: 10px;
+    margin: 100px auto;
+    display: flex;
+    padding: 30px 20px;
+}
+
+img#woman {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: -60px;
+    top: 15px;
+}
+
+h2 {
+    margin: 20px auto;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    margin: 10px auto;
+}
+
+p {
+    display: none;
+}
+
+hr {
+    color: hsl(240, 5%, 91%);
+}
+
