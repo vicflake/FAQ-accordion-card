@@ -75,7 +75,16 @@ li:hover {
     cursor: pointer;
 }
 
+footer {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    margin: 20px;
+}
 
+a {
+    color: #fff;
+}
 
 /* SHOW AND HIDE ANSWERS */
 
